@@ -7,15 +7,15 @@
 1. Split
 2. Renormalise After Colorise.
 
-# 0 - FULL SET
+## 0 - FULL SET
 Incorporates all the Actions listed below.
 
-# 1 - SPLIT
+## 1 - SPLIT
 
 Decomposes an image into separate chromatic and shading components.  See the *Split* folder above for further details. Also see the following.
 *https://medium.com/@terence.johnson/colour-inversion-in-photoshop-13c42d98f3cf*
 
-# 2 - RENORMALISE AFTER COLORISE 
+## 2 - RENORMALISE AFTER COLORISE 
 
 Reestablishes the correct shading for an image that has been subject to *Colorise* under *Filter/Neural Filters*.
 
