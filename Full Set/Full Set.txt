@@ -1,0 +1,164 @@
+This is the command/code listing for the full set of Actions provided.
+
+For details of use and functionality, see the folders for individual Actions 
+
+Once loaded, this Action set ("Full Set") may be renamed as required using the facilities of the
+Actions menu within Photoshop.
+
+*********************************************************************************************************************
+Set: Full Set
+	Action: Normalise Colorised Image
+		Duplicate current layer
+			5
+			7
+		Select layer “Layer 1”
+			Without Make Visible
+			6
+		Duplicate current layer
+			5
+			8
+		Select layer “Background”
+			Without Make Visible
+			1
+		Duplicate current layer
+			5
+			10
+		Select layer “Background”
+			Without Make Visible
+			1
+		Duplicate current layer
+			5
+			12
+		Hide layer “Layer 1 copy”
+		Hide layer “Layer 1 copy 2”
+		Select layer “Layer 1”
+			Without Make Visible
+			6
+		Black & White
+			Preset Kind: Default
+			red: 40
+			yellow: 60
+			green: 40
+			cyan: 60
+			blue: 20
+			magenta: 80
+			Without tinting
+			tint color: RGB color
+			Red: 225
+			Green: 211.001
+			Blue: 179.001
+		Set current layer
+			To: layer
+			Mode: subtract
+		Select layer “Background copy”
+			Without Make Visible
+			10
+		Hide layer “Background copy 2”
+		Hide Background
+		Merge Visible
+		Set current layer
+			To: layer
+			Mode: linear dodge
+		Show layer “Background copy 2”
+		Merge Visible
+		Show Background
+		Select layer “Background”
+			Without Make Visible
+			1
+		Duplicate current layer
+			5
+			14
+		Hide Background
+		Hide current layer
+		Show current layer
+		Set current layer
+			To: layer
+			Mode: color
+		Show layer “Layer 1 copy 2”
+		Hide current layer
+		Select layer “Layer 1 copy 2”
+			Without Make Visible
+			8
+		Merge Visible
+		Black & White
+			Preset Kind: Default
+			red: 40
+			yellow: 60
+			green: 40
+			cyan: 60
+			blue: 20
+			magenta: 80
+			Without tinting
+			tint color: RGB color
+			Red: 225
+			Green: 211.001
+			Blue: 179.001
+		Show layer “Background copy 2”
+		Set current layer
+			To: layer
+			Mode: subtract
+		Merge Visible
+		Show Background
+		Set current layer
+			To: layer
+			Mode: linear dodge
+		Merge Visible
+		Show layer “Layer 1 copy”
+		Select layer “Layer 1 copy”
+			Without Make Visible
+			7
+		Set current layer
+			To: layer
+			Mode: color
+		Merge Visible
+
+	Action: Split
+		Duplicate current layer
+			5
+		Select layer “Background”
+			Without Make Visible
+			1
+		Duplicate current layer
+			5
+			11
+		Invert
+		Hide Background
+		Select layer “Background copy”
+			Without Make Visible
+			9
+		Hue/Saturation
+			Preset Kind: Custom
+			Without Colorize
+			Adjustment: hue/saturation adjustment list
+			hue/saturation adjustment
+			Hue: -180
+			Saturation: 0
+			Lightness: 0
+		Set current layer
+			To: layer
+			Opacity: 50%
+		Merge Visible
+		Show Background
+		Select layer “Background”
+			Without Make Visible
+			1
+		Black & White
+			Preset Kind: Default
+			red: 40
+			yellow: 60
+			green: 40
+			cyan: 60
+			blue: 20
+			magenta: 80
+			Without tinting
+			tint color: RGB color
+			Red: 225
+			Green: 211.001
+			Blue: 179.001
+		Select layer “Background copy”
+			Without Make Visible
+			9
+		Invert
+		Set current layer
+			To: layer
+			Mode: color
