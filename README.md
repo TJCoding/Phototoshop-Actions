@@ -2,7 +2,7 @@
 =====================================================================
 
 ## A repository for Terry Johnson's Photoshop Actions 
-# (A total of 2 to date).
+#### (A total of 2 to date).
 
 1. Split
 2. Renormalise After Colorise.
