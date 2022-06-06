@@ -5,7 +5,7 @@ The Action files (_.ATN files_) associated with this repository can be loaded in
 
 a. Download the Action (or Actions) and cut and paste into a convenient folder for read-in access.  (Alternatively use the 'official folder' which is C:/Users/<username>/AppData/Roaming/Adobe/Adobe Photoshop <version>/Presets/Actions.)
 
-b. Open the Actions Palette using the hotkeys Alt+F9.
+b. Open the _Actions Palette_ using the hotkeys _Alt+F9_.
 
 c. Click the small menu icon near the top right of the _Actions Panel_.
 
