@@ -1,7 +1,7 @@
 # Phototoshop-Actions
 =====================================================================
 
-#####A repository for Terry Johnson's Photoshop Actions (2 to date).
+##### A repository for Terry Johnson's Photoshop Actions (2 to date).
 
 1. Split
 2. Renormalise After Colorise.
