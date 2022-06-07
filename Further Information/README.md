@@ -14,3 +14,8 @@ d. Choose _Load Actions..._ .
 e. Select the _.ATN_ file that you wish to load into Photoshop.
 
 Once loaded, select the required Action (from within the requisite _Action Set_).  Make sure that the image configuration is as specified for the particular Action and click the _Play_ button at the bottom centre of the _Actions Panel_. 
+  
+  
+  __LISTINGS__
+  
+  Full command listings for these Actions can be found in _Full Set.txt_ in the _Full Set_ directory.
