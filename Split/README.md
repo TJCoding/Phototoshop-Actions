@@ -18,11 +18,16 @@ NOTE. Some filter functions (such as _Stamp_) only support two monochrome values
 
 ## EXAMPLES
 
+#### Before and after the application of the Action.
  
-![Before and after application of the Action.](/../main/Split/Support%20Material/Split%20Processing.jpg)
+![Before and after the application of the Action.](/../main/Split/Support%20Material/Split%20Processing.jpg)
 
-![Decomposition of image](/../main/Split/Support%20Material/Split%20Processing2.jpg)
+#### Decomposition of the image
 
-![Further Processing](/../main/Split/Support%20Material/Split%20Example.jpg)
+![Decomposition of the image](/../main/Split/Support%20Material/Split%20Processing2.jpg)
+
+#### A further processing example
+
+![A Further processing example](/../main/Split/Support%20Material/Split%20Example.jpg)
 
 
