@@ -19,5 +19,5 @@ Decomposes an image into separate chromatic and shading components.  See the *Sp
 
 ## 2 - RENORMALISE AFTER COLORISE 
 
-Reestablishes the correct shading for an image that has been subject to *Colorise* under *Filter/Neural Filters*.
+Re-establishes the correct shading for an image that has been subject to *Colorise* under *Filter/Neural Filters*.
 
