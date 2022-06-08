@@ -15,6 +15,8 @@ Incorporates all the Actions listed below.
 Decomposes an image into separate chromatic and shading components.  See the *Split* folder above for further details. Also see the following.
 *https://medium.com/@terence.johnson/colour-inversion-in-photoshop-13c42d98f3cf*
 
+<sub>Also operates under Photoshop Elements.</sub>
+
 ## 2 - RENORMALISE AFTER COLORISE 
 
 Reestablishes the correct shading for an image that has been subject to *Colorise* under *Filter/Neural Filters*.
