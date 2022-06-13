@@ -24,8 +24,8 @@ Processing has been designed under the assumption that any conversion to monochr
 application of the _Image/Adjustments/Black and White_ processing option (rather than by _desaturate_ processing).
 
 ## EXAMPLE
-The following composite shows from left to right the original image before conversion to monochrome, the image recoloured from the monochrome original, and the image subsequent to processing by this Action.  The second row shows the monochrome versions of the respective images in the row above.
+The following composite shows from left to right:- the original image before conversion to monochrome, the image recoloured from the monochrome original, and the image subsequent to processing by this Action.  The second row shows the monochrome versions of the respective images in the row above.
 
-It would be expected that the recoloured image generated from the original monochrome image would look identical to that image when converted to monochromeitself. It does not look identical but the correspondence is improved by the application of this Action.
+It would be expected that the recoloured image generated from the original monochrome image would look identical to that image when converted to monochrome itself. It does not look identical but the correspondence is improved by the application of this Action.
 
 ![Composite](/../main/Renormalise%20After%20Colorise/Support%20Material/BloomComposite.jpg)
