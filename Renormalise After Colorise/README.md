@@ -28,4 +28,4 @@ The following composite shows from left to right the original image before conve
 
 It would be expected that the recoloured image generated from the original monochrome image would look identical to that image when converted to monochromeitself. It does not look identical but the correspondence is improved by the application of this Action.
 
-![Composite](/../main/Renormalise%20After%20Colorise/Support%20Material/BNloomComposite.jpg)
+![Composite](/../main/Renormalise%20After%20Colorise/Support%20Material/BloomComposite.jpg)
