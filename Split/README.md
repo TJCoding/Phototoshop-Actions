@@ -32,6 +32,6 @@ NOTE. Some filter functions (such as _Stamp_) only support two monochrome values
 
 #### A further processing example
 
-![A Further processing example](/../main/Split/Support%20Material/BloomComposite.jpg)
+![A Further processing example](/../main/Split/Support%20Material/Split%20Example.jpg)
 
 
