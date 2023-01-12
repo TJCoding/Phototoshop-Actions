@@ -11,9 +11,9 @@ Also see the following.
 An image comprising a single _Background layer_.
 
 ## OUTPUT
-An image comprised of two layers, whose composite is identical to the input image.
-	.. The _Background layer_ comprises a monochrome version of the image (derived from _Image/Adjustments/Black and White_).
-      .. The _Background copy layer_ comprises the colouration applied to the monochrome layer.
+An image comprised of two layers, (plus _Background_ original) whose composite is identical to the input image.
+	* The _Monochrome layer_ comprises a monochrome version of the image (derived from _Image/Adjustments/Black and White_).
+      * The _Colour layer_ comprises the colouration applied to the monochrome layer.
 
 ## UTILITY 
 The decomposed image allows separate processing of the monochromatic and the chromatic content of the image.
