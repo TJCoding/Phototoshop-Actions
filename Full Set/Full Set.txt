@@ -6,8 +6,9 @@ Once loaded, this Action set ("Full Set") may be renamed as required using the f
 Actions menu within Photoshop.
 
 *********************************************************************************************************************
+
 Set: Full Set
-	Action: Normalise Colorised Image
+	Action: Renormalise After Colorise
 		Duplicate current layer
 			5
 			7
@@ -113,35 +114,22 @@ Set: Full Set
 		Merge Visible
 
 	Action: Split
+		Make snapshot
+			From: Current History State
 		Duplicate current layer
+			Name:  “temp1”
 			5
-		Select layer “Background”
-			Without Make Visible
-			1
 		Duplicate current layer
+			Name:  “temp2”
 			5
-			11
-		Invert
-		Hide Background
-		Select layer “Background copy”
+			3
+		Duplicate current layer
+			Name:  “temp3”
+			5
+			4
+		Select layer “temp1”
 			Without Make Visible
-			9
-		Hue/Saturation
-			Preset Kind: Custom
-			Without Colorize
-			Adjustment: hue/saturation adjustment list
-			hue/saturation adjustment
-			Hue: -180
-			Saturation: 0
-			Lightness: 0
-		Set current layer
-			To: layer
-			Opacity: 50%
-		Merge Visible
-		Show Background
-		Select layer “Background”
-			Without Make Visible
-			1
+			2
 		Black & White
 			Preset Kind: Default
 			red: 40
@@ -155,10 +143,42 @@ Set: Full Set
 			Red: 225
 			Green: 211.001
 			Blue: 179.001
-		Select layer “Background copy”
+		Select layer “temp2”
 			Without Make Visible
-			9
+			3
+		Hue/Saturation
+			Preset Kind: Custom
+			Without Colorize
+			Adjustment: hue/saturation adjustment list
+			hue/saturation adjustment
+			Hue: 180
+			Saturation: 0
+			Lightness: 0
+		Select layer “temp3”
+			Without Make Visible
+			4
+		Invert
+		Set current layer
+			To: layer
+			Opacity: 50%
+		Select layer “temp2”
+			Modification: Add
+			Without Make Visible
+			3, 4
+		Merge Layers
 		Invert
 		Set current layer
 			To: layer
 			Mode: color
+		Select layer “temp1”
+			Without Make Visible
+			2
+		Set current layer
+			To: layer
+			Name:  “Monochrome layer”
+		Select layer “temp3”
+			Without Make Visible
+			4
+		Set current layer
+			To: layer
+			Name:  “Colour layer”
